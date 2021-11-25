@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/mainscreen.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:sizer/sizer.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -14,6 +14,7 @@ class HomePage extends StatefulWidget {
 
 final List<String> imageList = [
   "https://d.neoldu.com/news/68637.jpg",
+  "https://media.istockphoto.com/photos/digital-security-concept-picture-id1289956604?b=1&k=20&m=1289956604&s=170667a&w=0&h=fpkFDlqRrw_IzsQpZkuYqfgCUw7VMemUT8IuCH4-e9w=",
 ];
 
 class _HomePageState extends State<HomePage> {
